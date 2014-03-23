@@ -1,5 +1,26 @@
 # Sinatra - Login with Github
 
+## Local Setup
+
+**Clone the repo:**
+
+    $ git clone https://github.com/jshawl/sinatra-login-with-github.git
+
+**Install Dependencies**
+
+    $ cd sinatra-login-with-github/
+    $ bundle install
+    
+**Set ENV variables**
+
+I keep my ENV variables in a local env.rb file, much like this one:
+
+    ENV['GH_BASIC_CLIENT_ID'] = '...'
+    ENV['GH_BASIC_SECRET_ID'] = '...'
+    ENV['GH_URL'] = 'http://localhost:4567'
+    
+
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Jesse Shawl
