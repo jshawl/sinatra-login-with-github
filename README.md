@@ -19,7 +19,7 @@ I keep my ENV variables in a local env.rb file, much like this one:
     ENV['GH_BASIC_SECRET_ID'] = '...'
     ENV['GH_URL'] = 'http://localhost:4567'
     
-
+## License
 
 The MIT License (MIT)
 
