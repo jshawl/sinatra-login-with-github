@@ -4,7 +4,7 @@ require 'json'
 require './env' if File.exists?('env.rb')
 
 enable :sessions
-set :session_secret, "here be dragons"
+set :session_secret, ENV['GH_SESSION_SECRET']
 
 CLIENT_ID = ENV['GH_BASIC_CLIENT_ID']
 CLIENT_SECRET = ENV['GH_BASIC_SECRET_ID']
